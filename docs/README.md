@@ -20,13 +20,7 @@ A TDD generally contains the following information:
 * Networking.
 * Delivery platform & hardware/software requirements for running the game on a system.
 
-*[Here](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf) we have a very good TDD example (designed by some students for their college project.*
+*[Here](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf) we have a very good TDD example (designed by some students for their college project).*
 
 ## Webgraphy & Bibliography
 * [Studytonight](https://www.studytonight.com/3d-game-engineering-with-unity/tdd-and-gdd).
-
-fghhhhhhhhhhh
-fgh
-fgh
-fg
-hf
