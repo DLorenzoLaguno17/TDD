@@ -1,4 +1,7 @@
 # Technical Design Document
+“I am [Dani Lorenzo](https://www.linkedin.com/in/daniel-lorenzo-laguno-a2ab35180/), student of the [Bachelor’s Degree in Video Games by UPC at CITM (https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
+subject Project 2, under supervision of lecturer
+[Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).”
 
 ## Object-Oriented Design
 Modern digital games can be considered as large software projects which run and are made up of thousands of lines of code to millions of lines of code. Object-Oriented Design came into existence to deal with large software projects. The GDD or TDD are made for keeping in mind all the demands of Object-Oriented Programing along with the implementation details (TDD for technical details and GDD for entire Game Details) within it.
