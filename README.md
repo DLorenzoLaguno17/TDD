@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+#Technical Design Document
 
-You can use the [editor on GitHub](https://github.com/DLorenzoLaguno17/TDD/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Object-Oriented Design
+Modern digital games can be considered as large software projects which run and are made up of thousands of lines of code to millions of lines of code. Object-Oriented Design (OOD) came into existence to deal with large software projects. The GDD or TDD are made keeping in mind all the demands of OOPs along with the implementation details (TDD for technical details and GDD for entire Game Details) within it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Technical Design Document(TDD)
+The Technical Design Document provides a blueprint for the software engineers in your team to implement and code the features of your game. The technical design document will let your developers to specify - what are the requirements, how they should be implemented, along with the tools and technologies required for the implementation. The connection between structural design of a Software and Technical Design Document is that the technical design document has a broader scope with less details, than a software architecture diagram.
 
-### Markdown
+## A TDD generally contains the following information:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DLorenzoLaguno17/TDD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+List of all features.
+Choice of Game engine
+High level diagrams
+Details about the 3D objects, terrain, scenes.
+Use of Physics Engine
+Game logic and artificial intelligence
+Audio and Visual details and specifications
+Networking
+Delivery platform & hardware/software requirements for running the game on a system.
+Here we have a very good TDD example (designed by some students for their college project): TDD Example
