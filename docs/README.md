@@ -13,11 +13,13 @@ It defines all technology related items that should be considered.
 ● Functionality and limitations expected to communicate to the team.
 
 # Technical Design Document
-“I am [Dani Lorenzo](https://www.linkedin.com/in/daniel-lorenzo-laguno-a2ab35180/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
-subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).”
+I am [Dani Lorenzo](https://www.linkedin.com/in/daniel-lorenzo-laguno-a2ab35180/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
+subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
 
 ## Index
 * [Introduction](#introduction)
+* [Sections of a TDD](#sections-of-a-technical-design-document)
+* [References used](#references-used)
 
 ## Introduction
 Modern digital games can be considered as large software projects which run and are made up of thousands of lines of code to millions of lines of code. Object-Oriented Design came into existence to deal with large software projects. The GDD or TDD are made for keeping in mind all the demands of Object-Oriented Programing along with the implementation details (TDD for technical details and GDD for entire Game Details) within it.
@@ -41,7 +43,7 @@ The information contained in a TDD can vary depending on the company or the game
 
 ### Optional sections
 
-## References
+## References used
 * [Studytonight](https://www.studytonight.com/3d-game-engineering-with-unity/tdd-and-gdd).
 * [DevCrumb's Concept Discovery](https://github.com/DevCrumbs/Warcraft-II/wiki).
 * [Computer Games MMU](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf).
