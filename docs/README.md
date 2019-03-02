@@ -41,7 +41,7 @@ Being one of the most important of the TDD, in this section are described the co
 
 * **Naming conventions:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. As an example:
        
-       Every #define must be in capital letters.
+       Every #define must be in capital letters:
        #define MAX_HP 300
     
 * **Variables:** Explains how to manage the variables, how to declare and initialize them and whether to declare them inside *public*, *protected* or *private* part when using classes or structs.
@@ -50,8 +50,8 @@ Being one of the most important of the TDD, in this section are described the co
 
 * **Conditionals:** Describes how to manage condicionals, whether to separate the from the if or to put everything in the same line, when to use scopes {} or if it is preferred a conditional with operators or without them. As an example:
 
-        We prefer a conditional if(!something) 
-        rather than if(something == true).
+        We prefer a conditional like if(!something) 
+        rather than one like if(something == true).
 
 * **Classes & structs:**
 
