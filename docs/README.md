@@ -62,6 +62,16 @@ Being one of the most important of the TDD, in this section are described the co
 ### External libraries used
 
 ### Branching policy
+As we’ve seen, in Git’s implementation, commits are a big deal. Branches aren’t that big of a deal: they’re just named references to commits. Under this model, branching becomes cheaper. And as is bound to happen, once the price of something goes down, the demand for it goes up.
+
+As we’ve just seen, branching can get out of hand. It seems that we need an orderly, controlled way of dealing with them. And that’s precisely what a branching strategy is. It’s a set of rules and conventions that stipulate
+
+* When a developer should branch
+* From which branch they should branch off
+* When they should merge back
+* And to which branch should they merge back
+
+It might not sound like a much, but try coming up with a workflow that covers the four points above, while keeping it easy to understand, use, and teach to others. That’s no easy feat!
 
 ### Performance budgets
 
@@ -78,3 +88,4 @@ These are all the pages I have checked to do the research.
 * [Computer Games MMU](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf).
 * [El documentalista audiovisual](https://eldocumentalistaudiovisual.com/2015/02/06/documentacion-en-videojuegos-documento-de-diseno-gdd/).
 * [Básico y Fácil](https://basicoyfacil.wordpress.com/2009/01/02/que-son-requisitos-minimos-y-requisitos-recomendados/).
+* [What is a Branching Strategy?](https://rollout.io/blog/branching-strategy/).
