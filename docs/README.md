@@ -62,13 +62,16 @@ Being one of the most important of the TDD, in this section are described the co
 ### External libraries used
 
 ### Branching policy
-Branches are named references to commits. They are very useful during the programming process of the game, but a team needs to have stipulated in which way they are going to use them in order it does not turn against them. This is waht this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge adn tho which branch sould the developer make the merge commit.
+Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them in order this advantage does not turn against them. This is what this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
+
+![Github branches](https://www.google.es/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj1utOzguTgAhUSyYUKHR_oBnEQjRx6BAgBEAU&url=https%3A%2F%2Fwww.wlion.com%2Fblog%2F6-helpful-habits-for-mastering-git%2F&psig=AOvVaw0pl_F11wFreaofn8Lw38qM&ust=1551635305590953)
+
+*If you want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
 
 ### Performance budgets
 
 ### Delivery platform and requirements
-It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play the game. Minimum requisites are the ones for which the game has been designed and will make the platform run the game. On the other hand, recommended requisites will allow the user to run the game fluidly.
-       We will take the game [Cuphead](http://www.cupheadgame.com/) as an example:
+It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play the game. Minimum requisites are the ones for which the game has been designed and will make the platform run the game. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take the game [Cuphead](http://www.cupheadgame.com/) as an example:
 
 ## Optional sections
 
