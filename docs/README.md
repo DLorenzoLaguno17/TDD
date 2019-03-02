@@ -20,7 +20,7 @@ Modern digital games can be considered as large software projects which run and 
 The Technical Design Document provides a blueprint for the software engineers in your team to implement and code the features of your game. The technical design document will let your developers to specify what are the requirements, how they should be implemented, along with the tools and technologies required for the implementation. The connection between structural design of a Software and Technical Design Document is that the technical design document has a broader scope with less details, than a software architecture diagram.
 
 ## The relation of the TDD with the GDD
-The GDD is the soul of a videogame, it is equivalent to the "Bible" of a television series. This document will be used as the base for the development of the game. It contains a summary of The TDD is a specification for all the technical aspects of the features which are defined in the Game Design Document (GDD).
+The GDD is the soul of a videogame, it is equivalent to [the "Bible" of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/). This document will be used as the base for the development of the game. It contains a summary of The TDD is a specification for all the technical aspects of the features which are defined in the Game Design Document (GDD).
 
 So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, while a TDD is an architectural description of the game from the implementer’s point of view"*.
 
