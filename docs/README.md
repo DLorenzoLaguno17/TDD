@@ -68,7 +68,7 @@ Branches are very useful during the programming process of the game, but a team 
   <img src="http://wlion.com/wp-content/uploads/2016/06/github-branches.jpg" alt="Github branches" width="800" height="450">
 </p>
 
-*This is an example of a branch sistem inside a GitHub project. If you are interested and want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
+*This is an example of a branching system inside a GitHub project. If you are interested and want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
 
 ### Performance budgets
 
