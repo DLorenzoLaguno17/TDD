@@ -64,7 +64,7 @@ Being one of the most important of the TDD, in this section are described the co
 ### Branching policy
 Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them in order this advantage does not turn against them. This is what this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
 
-<img src="http://wlion.com/wp-content/uploads/2016/06/github-branches.jpg" alt="Github branches" width="800" height="450" class="center">
+<img src="http://wlion.com/wp-content/uploads/2016/06/github-branches.jpg" alt="Github branches" class="center" width="800" height="450" >
 
 *This is an example of a branch sistem inside a GitHub project. If you are interested and want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
 
