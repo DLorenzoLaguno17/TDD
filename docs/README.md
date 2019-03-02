@@ -6,7 +6,11 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
 
 # Index
 * [Introduction](#introduction)
+       * [What is a Technical Design Document?](#what-is-a-technical-design-document?)
+       * [The relation of the TDD with the GDD](#the-relation-of-the-TDD-with-the-GDD)
 * [Sections of a TDD](#sections-of-a-technical-design-document)
+       * [Core sections](#core-sections)
+       * [Optional sections](#optional-sections)
 * [References used](#references-used)
 
 # Introduction
