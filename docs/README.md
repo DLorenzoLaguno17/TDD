@@ -39,7 +39,7 @@ The information contained in a TDD can vary depending on the company or the game
 ### Code style guidelines
 Being one of the most important of the TDD, in this section are described the code conventions that will be applyed to the code during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
 
-* **Naming conventions:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. As an example:
+* **Naming rules:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. As an example:
        
        Every #define must be in capital letters:
        #define MAX_HP 300
@@ -48,12 +48,12 @@ Being one of the most important of the TDD, in this section are described the co
 
 * **Loops:** Mentions which loops are preferred inside the code (while, do-while, for...) and when to use *break* and *continue* keywords.
 
-* **Conditionals:** Describes how to manage condicionals, whether to separate the from the if or to put everything in the same line, when to use scopes {} or if it is preferred a conditional with operators or without them. As an example:
+* **Conditionals:** Describes how to manage condicionals, whether to separate the *if* line from the  if or to put everything in the same line, when to use scopes {} or if it is preferred a conditional with operators or without them. As an example:
 
-        We prefer a conditional like if(!something) 
+        We prefer a conditional like if(something) 
         rather than one like if(something == true).
 
-* **Classes & structs:**
+* **Classes & structs:** It is basically a convention of when to use classes and when structs and how to write the elements inside them. 
 
 * **XML:** Outlines the guidelines to write the variables in the XML files of the project and how to name their nodes and attributes.
 
