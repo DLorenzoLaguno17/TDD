@@ -37,10 +37,10 @@ The information contained in a TDD can vary depending on the company or the game
 ## Core sections
 
 ### Code style guidelines
-Being one of the most important of the TDD, in this section are described the code conventions that will be applyed to the code during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here there are some examples of the elements one could find in this section:
+Being one of the most important of the TDD, in this section are described the code conventions that will be applyed to the code during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
 
-* **Naming conventions:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the use of need of using comments. For example:
-    - Every #define must be in capital letters.
+* **Naming conventions:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the use of need of using comments. As an example:
+    Every #define must be in capital letters.
     #define MAX_HP 300
     
 * **Variables:**
