@@ -32,23 +32,29 @@ The information contained in a TDD can vary depending on the company or the proj
 ### Code style guidelines
 Being one of the most important of the TDD, in this section are described the code conventions that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
 
-* **Naming rules:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. As an example:
+* **Naming rules:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. For example:
        
        Every #define must be in capital letters:
        #define MAX_HP 300
     
-* **Variables:** Explains how to manage the variables, how to declare and initialize them and whether to declare them inside *public*, *protected* or *private* part when using classes or structs.
+* **Variables:** Explains how to manage the variables, how to declare and initialize them and whether to declare them inside *public*, *protected* or *private* part when using classes or structs. For example:
+       
+       Every time a pointer is created must be initialized as null:
+       int* test = nullptr;
 
-* **Loops:** Mentions which loops are preferred inside the code (while, do-while, for...) and when to use *break* and *continue* keywords.
+* **Loops:** Mentions which loops are preferred inside the code (while, do-while, for...) and when to use *break* and *continue* keywords. 
 
-* **Conditionals:** Describes how to manage condicionals, whether to separate the *if* line from the  if or to put everything in the same line, when to use scopes {} or if it is preferred a conditional with operators or without them. As an example:
+* **Conditionals:** Describes how to manage condicionals, whether to separate the *if* line from the  if or to put everything in the same line, when to use scopes {} or if it is preferred a conditional with operators or without them. For example:
 
-        We prefer a conditional like if(something) 
-        rather than one like if(something == true).
+        We prefer a conditional like if(something) {}
+        rather than one like if(something == true) {}
 
 * **Classes & structs:** It is basically a convention of when to use classes and when structs and how to write the elements inside them. 
 
-* **XML:** Outlines the guidelines to write the variables in the XML files of the project and how to name their nodes and attributes.
+* **XML:** Outlines the guidelines to write the variables in the XML files of the project and how to name their nodes and attributes. For example:
+       
+       If a node has only one attribute we will declare it in the same line as the node itself:
+       <house colour="red"/>
 
 *This list of elements has been made taking [DevCrumb's TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) as a reference.*
 
