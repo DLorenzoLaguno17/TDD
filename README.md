@@ -65,7 +65,7 @@ In this section are detailed the external libraries which are going to be used f
 The UML offers a general outlook of the structure the code will have and the inheritance relation between its classes. UML diagrams show the functions and the variables included in each module. It is a guide used to see the whole picture of the code. Nevertheless, this guide will change as the project goes by and the game evolves, becoming more complex each time and being extended with more specified UML diagrams of the emergent code modules.
 
 <p align="center">
-  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png" alt="General UML" width="686" height="677">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png" alt="General UML" width="186" height="177">
 </p>
 
 *DevCrumb's general UML for their game [Warcraft II: The Stolen Artifacts](https://devcrumbs.github.io/Warcraft-II/).*
