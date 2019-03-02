@@ -65,7 +65,7 @@ In this section are detailed the external libraries which are going to be used f
 ### Code organization overview (UML)
 
 <p align="center">
-  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png" alt="General UML">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png" alt="General UML" width="886" height="877">
 </p>
 
 *DevCrumb's general UML for their game [Warcraft II: The Stolen Artifacts](https://devcrumbs.github.io/Warcraft-II/).*
