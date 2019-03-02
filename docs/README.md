@@ -29,12 +29,33 @@ The Technical Design Document provides a blueprint for the software engineers in
 ## The relation of the TDD with the GDD
 The GDD is the soul of a videogame, it is equivalent to the "Bible" of a television series. This document will be used as the base for the development of the game. It contains a summary of The TDD is a specification for all the technical aspects of the features which are defined in the Game Design Document (GDD).
 
-So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, while a TDD is an architectural description of the game from the implementer’s point of view.*
+So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, while a TDD is an architectural description of the game from the implementer’s point of view"*.
 
-## Sections of a Technical Design Document
+# Sections of a Technical Design Document
 The information contained in a TDD can vary depending on the company or the game. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called core sections and optional sections.
 
 ## Core sections
+
+### Code style guidelines
+Being one of the most important of the TDD, in this section are described the code conventions that will be applyed to the code during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here there are some examples of the elements one could find in this section:
+
+* **Naming conventions:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the use of need of using comments. For example:
+    - Every #define must be in capital letters.
+    #define MAX_HP 300
+    
+* **Variables:**
+* **Loops:**
+* **Conditionals:**
+* **Classes & structs:**
+* **XML:**
+
+*This list of elements has been made taking [DevCrumb's TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) as a reference.*
+
+### External libraries used
+
+### Branching policy
+
+### Performance budgets
 
 ### Delivery platform and requirements
 It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play the game. Minimum requisites are the ones for which the game has been designed and will make the platform run the game. On the other hand, recommended requisites will allow the user to run the game fluidly.
@@ -43,7 +64,9 @@ We will take the game [Cuphead](http://www.cupheadgame.com/) as an example:
 ## Optional sections
 
 # References used
+These are all the pages I have checked to do the research.
 * [Studytonight](https://www.studytonight.com/3d-game-engineering-with-unity/tdd-and-gdd).
 * [DevCrumb's Concept Discovery](https://github.com/DevCrumbs/Warcraft-II/wiki).
 * [Computer Games MMU](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf).
 * [El documentalista audiovisual](https://eldocumentalistaudiovisual.com/2015/02/06/documentacion-en-videojuegos-documento-de-diseno-gdd/).
+* [Básico y Fácil](https://basicoyfacil.wordpress.com/2009/01/02/que-son-requisitos-minimos-y-requisitos-recomendados/).
