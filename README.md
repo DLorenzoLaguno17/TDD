@@ -30,7 +30,7 @@ The information contained in a TDD can vary depending on the company or the proj
 ## Core sections
 
 ### Code style guidelines
-Being one of the most important of the TDD, in this section are described the code conventions that will be applyed to the code during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
+Being one of the most important of the TDD, in this section are described the code conventions that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
 
 * **Naming rules:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. As an example:
        
@@ -56,12 +56,11 @@ Being one of the most important of the TDD, in this section are described the co
 In this section are detailed the external libraries which are going to be used for the development of the project and what are they going to be used for.
 
 ### Code organization overview (UML)
+The UML offers a general outlook of the structure the code will have and the inheritance relation between its classes. UML diagrams show the functions and the variables included in each module. It is a guide used to see the whole picture of the code. Nevertheless, this guide will change as the project goes by and the game evolves, becoming more complex each time and being extended with more specified UML diagrams of the emergent code modules.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png" alt="General UML" width="686" height="677">
 </p>
-
-![UML](https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png)
 
 *DevCrumb's general UML for their game [Warcraft II: The Stolen Artifacts](https://devcrumbs.github.io/Warcraft-II/).*
 
