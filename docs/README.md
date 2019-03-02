@@ -12,9 +12,10 @@ It defines all technology related items that should be considered.
 ● Branch workflow, code reviews, performance budgets.
 ● Functionality and limitations expected to communicate to the team.
 
-# Technical Design Document
 I am [Dani Lorenzo](https://www.linkedin.com/in/daniel-lorenzo-laguno-a2ab35180/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
 subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
+
+# Technical Design Document
 
 ## Index
 * [Introduction](#introduction)
@@ -30,12 +31,14 @@ The Technical Design Document provides a blueprint for the software engineers in
 ### The relation of the TDD with the GDD
 The GDD is the soul of a videogame, it is equivalent to the "Bible" of a television series. This document will be used as the base for the development of the game. It contains a summary of The TDD is a specification for all the technical aspects of the features which are defined in the Game Design Document (GDD).
 
-So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, while a TDD is an architectural description of the game from the implementer’s point of view.*
+So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, while a TDD is an architectural description of the game from the implementer’s point of view.*
 
 ## Sections of a Technical Design Document
 The information contained in a TDD can vary depending on the company or the game. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called core sections and optional sections.
 
 ### Core sections
+
+
 * List of all features.
 * Choice of Game engine.
 * High level diagrams.
