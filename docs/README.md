@@ -41,7 +41,7 @@ Being one of the most important of the TDD, in this section are described the co
 
 * **Naming conventions:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the use of need of using comments. For example:
     - Every #define must be in capital letters.
-        #define MAX_HP 300
+    #define MAX_HP 300
     
 * **Variables:**
 * **Loops:**
