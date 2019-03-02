@@ -67,6 +67,7 @@ In this section are detailed the external libraries which are going to be used f
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png" alt="General UML">
 </p>
+
 *DevCrumb's general UML for their game Warcraft II: The Stolen Artifacts.*
 
 ### Branching policy
