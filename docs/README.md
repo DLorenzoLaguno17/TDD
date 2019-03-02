@@ -91,8 +91,8 @@ It defines the target platform for which the game will be delivered, such as PC,
 # References used
 These are all the pages I have checked to do the research.
 * [Studytonight](https://www.studytonight.com/3d-game-engineering-with-unity/tdd-and-gdd).
-* [DevCrumb's Concept Discovery](https://github.com/DevCrumbs/Warcraft-II/wiki).
-* [Computer Games MMU](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf).
+* DevCrumb's [Concept Discovery](https://github.com/DevCrumbs/Warcraft-II/wiki).
+* Computer Games MMU's [TDD](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf).
 * [El documentalista audiovisual](https://eldocumentalistaudiovisual.com/2015/02/06/documentacion-en-videojuegos-documento-de-diseno-gdd/).
 * [Básico y Fácil](https://basicoyfacil.wordpress.com/2009/01/02/que-son-requisitos-minimos-y-requisitos-recomendados/).
 * [What is a Branching Strategy?](https://rollout.io/blog/branching-strategy/)
