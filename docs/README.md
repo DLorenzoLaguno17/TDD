@@ -72,7 +72,7 @@ Branches are very useful during the programming process of the game, but a team 
 
 ### Performance budgets
 
-*[Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book* Video Game Optimization: *"The performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change.*
+[Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book *Video Game Optimization*: *"The performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change.*
 
 ### Delivery platform and requirements
 It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play the game. Minimum requisites are the ones for which the game has been designed and will make the platform run the game. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take the game [Cuphead](http://www.cupheadgame.com/) as an example:
