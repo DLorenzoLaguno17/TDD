@@ -8,8 +8,8 @@ You need to create a website under github.com with:
 ○ Explanation of any other improvements on the system
 
 It defines all technology related items that should be considered.
-● Code Style, Platforms supported, code organization overview (UML).
-● Branch workflow, code reviews, performance budgets.
+● code organization overview (UML).
+● code reviews.
 ● Functionality and limitations expected to communicate to the team.
 
 I am [Dani Lorenzo](https://www.linkedin.com/in/daniel-lorenzo-laguno-a2ab35180/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
@@ -32,7 +32,7 @@ The GDD is the soul of a videogame, it is equivalent to the "Bible" of a televis
 So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, while a TDD is an architectural description of the game from the implementer’s point of view"*.
 
 # Sections of a Technical Design Document
-The information contained in a TDD can vary depending on the company or the game. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called core sections and optional sections.
+The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **optional sections**.
 
 ## Core sections
 
@@ -59,7 +59,15 @@ Being one of the most important of the TDD, in this section are described the co
 
 *This list of elements has been made taking [DevCrumb's TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) as a reference.*
 
-### External libraries used
+### External libraries
+In this section are detailed the external libraries which are going to be used for the development of the project and what are they going to be used for.
+
+### Code organization overview (UML)
+
+<p align="center">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/general_UML.png" alt="General UML">
+</p>
+*DevCrumb's general UML for their game Warcraft II: The Stolen Artifacts.*
 
 ### Branching policy
 Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them in order this advantage does not turn against them. This is what this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
@@ -76,7 +84,7 @@ The performance budgets are a series of limits imposed on metrics that affect th
 However, they are sometimes difficult to achieve or might change through the game creation process, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
 
 ### Delivery platform and requirements
-It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play the game. Minimum requisites are the ones for which the game has been designed and will make the platform run the game. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take the game [Cuphead](http://www.cupheadgame.com/) as an example:
+It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. Minimum requisites are the ones for which the game has been designed and will make the platform run it. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take [Cuphead](http://www.cupheadgame.com/) as an example:
 
 ## Optional sections
 
