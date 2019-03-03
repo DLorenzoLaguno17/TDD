@@ -22,6 +22,12 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
        * [Version list](#version-list)
        * [Delivery platform and requirements](#delivery-platform-and-requirements)
     * [Optional sections](#optional-sections)
+       * [Choce of game engine](#choide-of-game-engine)
+       * [Art and audio tools](#art-and-adudio-tools)
+       * [3D Objects, terrain and scene management](#3d-bjects-terrain-and-scene-management)
+       * [Use of physics engine](#use-of-physics-engine)
+       * [AI](#ai)
+       * [Networking](#networking)
 * [References used](#references-used)
 
 # Introduction
