@@ -17,6 +17,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
        * [Code organization overview (UML)](#code-organization-overview-UML)
        * [Branching policy](#branching-policy)
        * [Performance budgets](#performance-budgets)
+       * [Build delivery method](#build-delivery-method)
        * [Version list](#version-list)
        * [Delivery platform and requirements](#delivery-platform-and-requirements)
     * [Optional sections](#optional-sections)
@@ -34,7 +35,7 @@ The GDD is the soul of a videogame, it is equivalent to [the "Bible" of a televi
 So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, while a TDD is an architectural description of the game from the implementer’s point of view"*.
 
 # Sections of a Technical Design Document
-The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **optional sections**.
+The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **extra sections**.
 
 ## Core sections
 
@@ -107,6 +108,9 @@ Related with the [technical goals](#technical-goals), the performance budgets ar
 
 However, they are sometimes difficult to achieve or might change through the game creation process, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
 
+### Build delivery method
+This section describes the process that will be followed every time a build is delivered. It explains if there will be used an extern program, who will deliver the build and when will it be delivered.
+
 ### Version list
 Planning beforehand what it is intended to have for each version of the game creates a guideline to follow when it comes to create the releases. In this way the team can identify in which phase of the development they are. For example, a company creating an RTS could decide that they want the fog of war to be for the 0.6 version. Eventually, when it is implemented it will mean they have arrived to that version and that it is time for a new release.
 
@@ -117,7 +121,7 @@ It defines the target platform for which the game will be delivered, such as PC,
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/platforms.jpg?raw=true" alt="Github branches" width="675" height="380">
 </p>
 
-## Optional sections
+## Extra sections
 
 ### Choice of game engine
 If the game uses a game engine this section explains which one has been decided to use and the reasons of this election. It also has a brief description of the features the chosen engine provides to the developers.
