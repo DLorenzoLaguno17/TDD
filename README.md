@@ -32,13 +32,10 @@ The information contained in a TDD can vary depending on the company or the proj
 ### Technical goals
 
 ### Technical risks
-At the same time a team has its goals there are also risks which must not overlooked. If we are making a super realistic game like Uncharted one of those riks could be that the fack of having two maps rendered at the same tame make the game go incredibly slower. In order to take them into account, they are written down in the TDD.
+At the same time a team has its goals there are also risks which must not overlooked. If we are making the time-travel level of Dishonored 2 (a level which you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps rendered at the same tame makes the game go incredibly slower. In order to take them into account, they are written down in the TDD.
 
-<p align="center">
-  <img src="(https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/dishonored-level.jpg?raw=true)" width="1024" height="576">
-</p>
 
-*Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/)*
+*Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/en)*
 
 ### Code style guidelines
 Being one of the most important of the TDD, in this section are described the code conventions that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
