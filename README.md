@@ -10,6 +10,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
     * [The relation of the TDD with the GDD](#the-relation-of-the-TDD-with-the-GDD)
 * [Sections of a TDD](#sections-of-a-technical-design-document)
     * [Core sections](#core-sections)
+       * asdff
     * [Optional sections](#optional-sections)
 * [References used](#references-used)
 
@@ -100,6 +101,23 @@ However, they are sometimes difficult to achieve or might change through the gam
 It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. Minimum requisites are the ones for which the game has been designed and will make the platform run it. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take [Cuphead](http://www.cupheadgame.com/) as an example:
 
 ## Optional sections
+
+### Choice of game engine
+If the game uses a game engine it will explain which one has been decided to use and the reasons of this election. This section also has a brief description of the features the chosen engine provides to the developers.
+
+### Art tools
+In case there is no art bible, this section will detail which art tools will be used for the game and where will they be applied.
+
+### 3D Objects, terrain and scene management
+
+### Use of physics engine
+
+### IA
+
+### Networking
+In the case the game is multiplayer or has a multiplayer mode this section explains how it will be handled.
+
+### Audio and visual effects
 
 # References used
 These are all the pages I have checked to do the research.
