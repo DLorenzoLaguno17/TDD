@@ -17,6 +17,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
        * [Code organization overview (UML)](#code-organization-overview-UML)
        * [Branching policy](#branching-policy)
        * [Performance budgets](#performance-budgets)
+       * [Version list](#version-list)
        * [Delivery platform and requirements](#delivery-platform-and-requirements)
     * [Optional sections](#optional-sections)
 * [References used](#references-used)
@@ -36,6 +37,8 @@ So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in he
 The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **optional sections**.
 
 ## Core sections
+
+### Features from the GDD
 
 ### Technical goals
 The tehcnical goals are seat to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
@@ -104,6 +107,9 @@ Related with the [technical goals](#technical-goals), the performance budgets ar
 
 However, they are sometimes difficult to achieve or might change through the game creation process, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
 
+### Version list
+Planning beforehand what it is intended to have for each version of the game creates a guideline to follow when it comes to create the releases. In this way the team can identify in which phase of the development they are. For example, a company creating an RTS could decide that they want the fog of war to be for the 0.6 version. Eventually, when it is implemented it will mean they have arrived to that version and that it is time for a new release.
+
 ### Delivery platform and requirements
 It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. Minimum requisites are the ones for which the game has been designed and will make the platform run it. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take [Cuphead](http://www.cupheadgame.com/) as an example:
 
@@ -114,12 +120,13 @@ It defines the target platform for which the game will be delivered, such as PC,
 ## Optional sections
 
 ### Choice of game engine
-If the game uses a game engine it will explain which one has been decided to use and the reasons of this election. This section also has a brief description of the features the chosen engine provides to the developers.
+If the game uses a game engine this section explains which one has been decided to use and the reasons of this election. It also has a brief description of the features the chosen engine provides to the developers.
 
-### Art tools
-In case there is no art bible, this section will specify which art tools will be used for the game and where will they be applied.
+### Art and audio tools
+In case there is no art bible and no audio bible, this section will specify which art tools will be used for the game art and audio and which tool will be used for each art or audio area.
 
 ### 3D Objects, terrain and scene management
+
 
 ### Use of physics engine
 This section describes how will be de collision detection, how will be the physics calculated and applied to the game (gravity, friction...) and how will be the interaction of the charaters or the other entities with the game world. 
@@ -129,8 +136,6 @@ If the game will have a complex AI system it is very important it is conscientio
 
 ### Networking
 In the case the game is multiplayer or has a multiplayer mode this section explains how it will be handled.
-
-### Audio and visual effects
 
 # References used
 These are all the pages I have checked to do the research.
