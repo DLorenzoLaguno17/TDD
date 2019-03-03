@@ -10,7 +10,8 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
     * [The relation of the TDD with the GDD](#the-relation-of-the-TDD-with-the-GDD)
 * [Sections of a TDD](#sections-of-a-technical-design-document)
     * [Core sections](#core-sections)
-       * asdff
+       * [Technical goals](#technical-goals)
+       * [Technical risks](#technical-risks)
     * [Optional sections](#optional-sections)
 * [References used](#references-used)
 
