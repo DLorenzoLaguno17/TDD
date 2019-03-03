@@ -12,6 +12,12 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
     * [Core sections](#core-sections)
        * [Technical goals](#technical-goals)
        * [Technical risks](#technical-risks)
+       * [Code style guidelines](#code-style-guidelines)
+       * [External libraries](#external-libraries)
+       * [Code organization overview (UML)](#code-organization-overview-(UML))
+       * [Branching policy](#branching-policy)
+       * [Performance budgets](#performance-budgets)
+       * [Delivery platform and requirements](#delivery-platform-and-requirements)
     * [Optional sections](#optional-sections)
 * [References used](#references-used)
 
