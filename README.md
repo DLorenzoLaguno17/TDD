@@ -85,7 +85,7 @@ The UML offers a general outlook of the structure the code will have and the inh
 Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
 
 <p align="center">
-  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/github-branches.jpg" alt="Github branches" width="675" height="380">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/github-branches.jpg?raw=true" alt="Github branches" width="675" height="380">
 </p>
 
 *This is an example of a branching system inside a GitHub project. If you are interested and want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
