@@ -32,8 +32,9 @@ The information contained in a TDD can vary depending on the company or the proj
 ### Technical goals
 
 ### Technical risks
-At the same time a team has its goals there are also risks which must not overlooked. If we are making the time-travel level of Dishonored 2 (a level which you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps rendered at the same tame makes the game go incredibly slower. In order to take them into account, they are written down in the TDD.
+At the same time a team has its goals there are also risks which must not overlooked. If we are making the time-travel level of Dishonored 2 (a level where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps rendered at the same tame makes the game go incredibly slower. In order to take them into account, they are written down in the TDD.
 
+![sdf](https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/dishonored-level.jpg?raw=true)
 
 *Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/en)*
 
