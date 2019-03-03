@@ -1,5 +1,5 @@
-● code reviews.
-● Functionality and limitations expected to communicate to the team.
+* Review branches
+* Review Introduction
 
 I am [Dani Lorenzo](https://www.linkedin.com/in/daniel-lorenzo-laguno-a2ab35180/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
 subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
@@ -10,6 +10,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
     * [The relation of the TDD with the GDD](#the-relation-of-the-TDD-with-the-GDD)
 * [Sections of a TDD](#sections-of-a-technical-design-document)
     * [Core sections](#core-sections)
+       * [Features from the GDD](#features-from-the-GDD)
        * [Technical goals](#technical-goals)
        * [Technical risks](#technical-risks)
        * [Code style guidelines](#code-style-guidelines)
@@ -26,11 +27,13 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
 # Introduction
 Modern digital games can be considered as large software projects which run and are made up of thousands of lines of code to millions of lines of code. Object-Oriented Design came into existence to deal with large software projects. The GDD or TDD are made for keeping in mind all the demands of Object-Oriented Programing along with the implementation details (TDD for technical details and GDD for entire Game Details) within it.
 
+https://www.linkedin.com/in/ahlawatabhishek/
+
 ## What is a Technical Design Document?
-The Technical Design Document provides a blueprint for the software engineers in your team to implement and code the features of your game. The technical design document will let your developers to specify what are the requirements, how they should be implemented, along with the tools and technologies required for the implementation. The connection between structural design of a Software and Technical Design Document is that the technical design document has a broader scope with less details, than a software architecture diagram.
+The Technical Design Document provides an scheme for the programmers in your team to implement and code the features of your game. It will let your developers to specify what are the requirements, how they should be implemented, along with the tools and technologies required for the implementation. The connection between structural design of a Software and Technical Design Document is that the technical design document has a broader scope with less details, than a software architecture diagram.
 
 ## The relation of the TDD with the GDD
-The GDD is the soul of a videogame, it is equivalent to [the Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). This document will be used as the base for the development of the game. It contains a summary of The TDD is a specification for all the technical aspects of the features which are defined in the Game Design Document (GDD).
+The Game Desgin Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD.
 
 So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, a TDD is an architectural description of the game from the implementer’s point of view"*.
 
@@ -46,7 +49,7 @@ Since the TDD is the document that will handle all the technical aspects of the 
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/doomGDD.JPG?raw=true" alt="Github branches" width="450" height="578">
 </p>
 
-*Original DOOM's [bible](http://planetdoom.gamespy.com/classicdoom/doombible.pdf)*
+*Original DOOM's [bible](http://planetdoom.gamespy.com/classicdoom/doombible.pdf) (GDD).*
 
 ### Technical goals
 The tehcnical goals are set to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
@@ -61,7 +64,7 @@ At the same time a team has its goals there are also risks which must not be ove
 *Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/en). As we can see in the image, the player is in one stage (present) while is looking through its gadget to the other stage (past) in real time.*
 
 ### Code style guidelines
-Being one of the most important of the TDD, in this section are described the **code conventions** that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
+Being one of the most important of the TDD, in this section are described the **code conventions** that will be applyed during the development of the whole project, in order to have an **organized and homogeneous code** that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
 
 * **Naming rules:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. For example:
        
@@ -156,7 +159,8 @@ These are all the pages I have checked to do the research.
 * Narbacular Drop's [TDD](http://www.nuclearmonkeysoftware.com/documents/narbacular_drop_technical_design_document.pdf).
 * [El documentalista audiovisual](https://eldocumentalistaudiovisual.com/2015/02/06/documentacion-en-videojuegos-documento-de-diseno-gdd/).
 * [Básico y Fácil](https://basicoyfacil.wordpress.com/2009/01/02/que-son-requisitos-minimos-y-requisitos-recomendados/).
-* [What is a Branching Strategy?](https://rollout.io/blog/branching-strategy/)
+* [What is a Branching Strategy?](https://rollout.io/blog/branching-strategy/).
+* [What is a GDD?](https://medium.com/@cbrown0510/what-is-a-gdd-ca43e2094995).
 * Video Game Optimization's [fragment](https://books.google.es/books?id=MeILAAAAQBAJ&pg=PA27&lpg=PA27&dq=performance+budgets+of+a+video+game&source=bl&ots=-RmRgeg4nn&sig=ACfU3U1BgDCT4alxei4_glK7NOc6BmdtuQ&hl=ca&sa=X&ved=2ahUKEwjpxYSMieTgAhUMyxoKHSk8D1kQ6AEwCHoECAYQAQ#v=onepage&q&f=false).
 * [web.dev](https://web.dev/fast/performance-budgets-101).
 
