@@ -107,6 +107,10 @@ However, they are sometimes difficult to achieve or might change through the gam
 ### Delivery platform and requirements
 It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. Minimum requisites are the ones for which the game has been designed and will make the platform run it. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take [Cuphead](http://www.cupheadgame.com/) as an example:
 
+<p align="center">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/platforms.jpg?raw=true" alt="Github branches" width="675" height="380">
+</p>
+
 ## Optional sections
 
 ### Choice of game engine
