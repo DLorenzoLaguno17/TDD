@@ -29,6 +29,10 @@ The information contained in a TDD can vary depending on the company or the proj
 
 ## Core sections
 
+### Technical goals
+
+### Technical risks
+
 ### Code style guidelines
 Being one of the most important of the TDD, in this section are described the code conventions that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
 
@@ -80,7 +84,7 @@ Branches are very useful during the programming process of the game, but a team 
 *This is an example of a branching system inside a GitHub project. If you are interested and want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
 
 ### Performance budgets
-The performance budgets are a series of limits imposed on metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Defining a budget helps get the web performance conversation started. Performance budgets serve as a point of reference for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
+Related with the [technical goals](#technical-goals), the performance budgets are a series of limits imposed on metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Defining a budget helps get the web performance conversation started. Performance budgets serve as a point of reference for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
 
 However, they are sometimes difficult to achieve or might change through the game creation process, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
 
@@ -94,6 +98,7 @@ These are all the pages I have checked to do the research.
 * [Studytonight](https://www.studytonight.com/3d-game-engineering-with-unity/tdd-and-gdd).
 * DevCrumb's [Concept Discovery](https://github.com/DevCrumbs/Warcraft-II/wiki).
 * Computer Games MMU's [TDD](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf).
+* Narbacular Drop's [TDD](http://www.nuclearmonkeysoftware.com/documents/narbacular_drop_technical_design_document.pdf).
 * [El documentalista audiovisual](https://eldocumentalistaudiovisual.com/2015/02/06/documentacion-en-videojuegos-documento-de-diseno-gdd/).
 * [Básico y Fácil](https://basicoyfacil.wordpress.com/2009/01/02/que-son-requisitos-minimos-y-requisitos-recomendados/).
 * [What is a Branching Strategy?](https://rollout.io/blog/branching-strategy/)
