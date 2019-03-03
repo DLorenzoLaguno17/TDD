@@ -113,7 +113,7 @@ It defines the target platform for which the game will be delivered, such as PC,
 If the game uses a game engine it will explain which one has been decided to use and the reasons of this election. This section also has a brief description of the features the chosen engine provides to the developers.
 
 ### Art tools
-In case there is no art bible, this section will detail which art tools will be used for the game and where will they be applied.
+In case there is no art bible, this section will specify which art tools will be used for the game and where will they be applied.
 
 ### 3D Objects, terrain and scene management
 
@@ -121,7 +121,7 @@ In case there is no art bible, this section will detail which art tools will be 
 This section describes how will be de collision detection, how will be the physics calculated and applied to the game (gravity, friction...) and how will be the interaction of the charaters or the other entities with the game world. 
 
 ### AI
-It is very im ------------------
+If the game will have a complex AI system it is very important it is conscientiously planned and detailed.
 
 ### Networking
 In the case the game is multiplayer or has a multiplayer mode this section explains how it will be handled.
