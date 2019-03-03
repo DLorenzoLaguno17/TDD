@@ -32,6 +32,13 @@ The information contained in a TDD can vary depending on the company or the proj
 ### Technical goals
 
 ### Technical risks
+At the same time a team has its goals there are also risks which must not overlooked. If we are making a super realistic game like Uncharted one of those riks could be that the fack of having two maps rendered at the same tame make the game go incredibly slower. In order to take them into account, they are written down in the TDD.
+
+<p align="center">
+  <img src="(https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/dishonored-level.jpg?raw=true)">
+</p>
+
+*Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/)*
 
 ### Code style guidelines
 Being one of the most important of the TDD, in this section are described the code conventions that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
@@ -75,7 +82,7 @@ The UML offers a general outlook of the structure the code will have and the inh
 *DevCrumb's general UML for their game [Warcraft II: The Stolen Artifacts](https://devcrumbs.github.io/Warcraft-II/).*
 
 ### Branching policy
-Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them in order this advantage does not turn against them. This is what this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
+Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/github-branches.jpg" alt="Github branches" width="800" height="450">
