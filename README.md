@@ -30,15 +30,16 @@ The information contained in a TDD can vary depending on the company or the proj
 ## Core sections
 
 ### Technical goals
+The tehcnical goals are seat to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
 
 ### Technical risks
-At the same time a team has its goals there are also risks which must not overlooked. If we are making the time-travel level of Dishonored 2 (a level where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps rendered at the same tame makes the game go incredibly slower. In order to take them into account, they are written down in the TDD.
+At the same time a team has its goals there are also risks which must not be overlooked. If the company is making the time-travel level of Dishonored 2 (a level where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps rendered at the same tame makes the game go incredibly slower. In order to take the risks into account they are written down in the TDD.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/dishonored-level.jpg?raw=true" alt="Github branches" width="675" height="380">
 </p>
 
-*Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/en)*
+*Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/en). As we can see in the image, the player is in one stage (present) while is looking through its gadget to the other stage (past) in real time.*
 
 ### Code style guidelines
 Being one of the most important of the TDD, in this section are described the code conventions that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
