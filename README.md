@@ -30,7 +30,7 @@ Modern digital games can be considered as large software projects which run and 
 The Technical Design Document provides a blueprint for the software engineers in your team to implement and code the features of your game. The technical design document will let your developers to specify what are the requirements, how they should be implemented, along with the tools and technologies required for the implementation. The connection between structural design of a Software and Technical Design Document is that the technical design document has a broader scope with less details, than a software architecture diagram.
 
 ## The relation of the TDD with the GDD
-The GDD is the soul of a videogame, it is equivalent to [the "Bible" of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/). This document will be used as the base for the development of the game. It contains a summary of The TDD is a specification for all the technical aspects of the features which are defined in the Game Design Document (GDD).
+The GDD is the soul of a videogame, it is equivalent to [the Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). This document will be used as the base for the development of the game. It contains a summary of The TDD is a specification for all the technical aspects of the features which are defined in the Game Design Document (GDD).
 
 So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, a TDD is an architectural description of the game from the implementer’s point of view"*.
 
@@ -40,7 +40,13 @@ The information contained in a TDD can vary depending on the company or the proj
 ## Core sections
 
 ### Features from the GDD
-Since the TDD is the document that will handle all the technical aspects of the development of the game it is important to summarize the list of concepts from the GDD which will affect in some way the methodology of the ------------------
+Since the TDD is the document that will handle all the technical aspects of the development of the game it is important to summarize the most relevant features of GDD to have them handy. 
+
+<p align="center">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/doomGDD.JPG?raw=true" alt="Github branches" width="548" height="704">
+</p>
+
+*Original DOOM's [bible](http://planetdoom.gamespy.com/classicdoom/doombible.pdf)*
 
 ### Technical goals
 The tehcnical goals are set to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
