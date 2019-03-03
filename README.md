@@ -112,7 +112,11 @@ However, they are sometimes difficult to achieve or might change through the gam
 This section describes the process that will be followed every time a build is delivered. It explains if there will be used an extern program, who will deliver the build and when will it be delivered.
 
 ### Version list
-Planning beforehand what it is intended to have for each version of the game creates a guideline to follow when it comes to create the releases. In this way the team can identify in which phase of the development they are. For example, a company creating an RTS could decide that they want the fog of war to be for the 0.6 version. Eventually, when it is implemented it will mean they have arrived to that version and that it is time for a new release.
+Planning beforehand what it is intended to have for each version of the game creates a guideline to follow when it comes to create the releases. In this way the team can identify in which phase of the development they are. For example, a company creating an RTS could decide that they want the fog of war to be for the version `v0.6`. Eventually, when it is implemented it will mean they have arrived to that version and that it is time for a new release.
+
+<p align="center">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/release.JPG?raw=true" alt="Github branches" width="675" height="380">
+</p>
 
 ### Delivery platform and requirements
 It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. Minimum requisites are the ones for which the game has been designed and will make the platform run it. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take [Cuphead](http://www.cupheadgame.com/) as an example:
