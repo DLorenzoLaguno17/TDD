@@ -137,3 +137,5 @@ These are all the pages I have checked to do the research.
 * [What is a Branching Strategy?](https://rollout.io/blog/branching-strategy/)
 * Video Game Optimization's [fragment](https://books.google.es/books?id=MeILAAAAQBAJ&pg=PA27&lpg=PA27&dq=performance+budgets+of+a+video+game&source=bl&ots=-RmRgeg4nn&sig=ACfU3U1BgDCT4alxei4_glK7NOc6BmdtuQ&hl=ca&sa=X&ved=2ahUKEwjpxYSMieTgAhUMyxoKHSk8D1kQ6AEwCHoECAYQAQ#v=onepage&q&f=false).
 * [web.dev](https://web.dev/fast/performance-budgets-101).
+
+Go [back to top](#index).
