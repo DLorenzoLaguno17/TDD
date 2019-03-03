@@ -42,7 +42,7 @@ The information contained in a TDD can vary depending on the company or the proj
 ### Features from the GDD
 
 ### Technical goals
-The tehcnical goals are seat to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
+The tehcnical goals are set to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
 
 ### Technical risks
 At the same time a team has its goals there are also risks which must not be overlooked. If the company is making the time-travel level of Dishonored 2 (a level where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps rendered at the same tame makes the game go incredibly slower. In order to take the risks into account they are written down in the TDD.
@@ -54,7 +54,7 @@ At the same time a team has its goals there are also risks which must not be ove
 *Time-travel level in [Dishonored 2](https://dishonored.bethesda.net/en). As we can see in the image, the player is in one stage (present) while is looking through its gadget to the other stage (past) in real time.*
 
 ### Code style guidelines
-Being one of the most important of the TDD, in this section are described the code conventions that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
+Being one of the most important of the TDD, in this section are described the **code conventions** that will be applyed during the development of the whole project, in order to have an organized and homogeneous code that every programmer of the team is able both to understand and to work with. The thoroughness of the code style guidelines depends on the programming team and their objectives. Here are some examples of the elements one could find in this section:
 
 * **Naming rules:** Explains the language of the code, how variables and functions must be named, the use of signs like parentheses and whitespaces or the need of using comments. For example:
        
@@ -104,7 +104,7 @@ Branches are very useful during the programming process of the game, but a team 
 *This is an example of a branching system inside a GitHub project. If you are interested and want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
 
 ### Performance budgets
-Related with the [technical goals](#technical-goals), the performance budgets are a series of limits imposed on metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Defining a budget helps get the web performance conversation started. Performance budgets serve as a point of reference for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
+Related with the [technical goals](#technical-goals), the performance budgets are a series of limits imposed on metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Performance budgets serve as a **point of reference** for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
 
 However, they are sometimes difficult to achieve or might change through the game creation process, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
 
@@ -115,7 +115,7 @@ This section describes the process that will be followed every time a build is d
 Planning beforehand what it is intended to have for each version of the game creates a guideline to follow when it comes to create the releases. In this way the team can identify in which phase of the development they are. For example, a company creating an RTS could decide that they want the fog of war to be for the version `v0.6`. Eventually, when it is implemented it will mean they have arrived to that version and that it is time for a new release.
 
 ### Delivery platform and requirements
-It defines the target platform for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. Minimum requisites are the ones for which the game has been designed and will make the platform run it. On the other hand, recommended requisites will allow the user to run the game fluidly. We will take [Cuphead](http://www.cupheadgame.com/) as an example:
+It defines the **target platform** for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. **Minimum requisites** are the ones for which the game has been designed and will make the platform run it. On the other hand, **recommended requisites** will allow the user to run the game fluidly. We will take [Cuphead](http://www.cupheadgame.com/) as an example:
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/platforms.jpg?raw=true" alt="Platforms" width="675" height="380">
