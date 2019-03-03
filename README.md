@@ -24,7 +24,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
     * [Optional sections](#optional-sections)
        * [Choce of game engine](#choide-of-game-engine)
        * [Art and audio tools](#art-and-adudio-tools)
-       * [3D Objects, terrain and scene management](#3d-bjects-terrain-and-scene-management)
+       * [3D Objects, terrain and scene management](#3d-objects-terrain-and-scene-management)
        * [Use of physics engine](#use-of-physics-engine)
        * [AI](#ai)
        * [Networking](#networking)
