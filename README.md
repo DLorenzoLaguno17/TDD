@@ -43,7 +43,7 @@ The information contained in a TDD can vary depending on the company or the proj
 Since the TDD is the document that will handle all the technical aspects of the development of the game it is important to summarize the most relevant features of GDD to have them handy. 
 
 <p align="center">
-  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/doomGDD.JPG?raw=true" alt="Github branches" width="548" height="704">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/doomGDD.JPG?raw=true" alt="Github branches" width="450" height="578">
 </p>
 
 *Original DOOM's [bible](http://planetdoom.gamespy.com/classicdoom/doombible.pdf)*
