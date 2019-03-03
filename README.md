@@ -57,14 +57,14 @@ Being one of the most important of the TDD, in this section are described the co
        Every #define must be in capital letters:
        #define MAX_HP 300
     
-* **Variables:** Explains how to manage the variables, how to declare and initialize them and whether to declare them inside *public*, *protected* or *private* part when using classes or structs. For example:
+* **Variables:** Explains how to manage the variables, how to declare and initialize them and whether to declare them inside `public`, `protected` or `private` part when using classes or structs. For example:
        
        Every time a pointer is created must be initialized as null:
        int* test = nullptr;
 
-* **Loops:** Mentions which loops are preferred inside the code (while, do-while, for...) and when to use *break* and *continue* keywords. 
+* **Loops:** Mentions which loops are preferred inside the code (`while`, `do-while`, `for`...) and when to use `break` and `continue` keywords. 
 
-* **Conditionals:** Describes how to manage condicionals, whether to separate the *if* line from the  if or to put everything in the same line, when to use scopes {} or if it is preferred a conditional with operators or without them. For example:
+* **Conditionals:** Describes how to manage condicionals, whether to separate the `if` line from the  if or to put everything in the same line, when to use scopes `{}` or if it is preferred a conditional with operators or without them. For example:
 
         We prefer a conditional like if(something) {}
         rather than one like if(something == true) {}
@@ -121,7 +121,7 @@ In case there is no art bible, this section will detail which art tools will be 
 This section describes how will be de collision detection, how will be the physics calculated and applied to the game (gravity, friction...) and how will be the interaction of the charaters or the other entities with the game world. 
 
 ### AI
-It is very im `mpopo` 
+It is very im ------------------
 
 ### Networking
 In the case the game is multiplayer or has a multiplayer mode this section explains how it will be handled.
