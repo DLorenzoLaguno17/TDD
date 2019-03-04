@@ -19,7 +19,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
        * [Build delivery method](#build-delivery-method)
        * [Version list](#version-list)
        * [Delivery platform and requirements](#delivery-platform-and-requirements)
-    * [Optional sections](#optional-sections)
+    * [Extra sections](#extra-sections)
        * [Choce of game engine](#choide-of-game-engine)
        * [Art and audio tools](#art-and-adudio-tools)
        * [3D Objects, terrain and scene management](#3d-objects-terrain-and-scene-management)
@@ -31,7 +31,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
 # Introduction
 
 ## What is a Technical Design Document?
-A Technical Design Document (TDD) is an **scheme** for the programmers in a team to implement and code the features of their game. It lets the developers of the team to specify what are the requirements, how they should be implemented and the tools and technologies required for the implementation. Besides, the TDD is also a useful document to show when it comes to find a publisher for your game, considering that they are becoming every time more careful about evaluating the games they might invert in.
+A Technical Design Document (TDD) is a **scheme** for the programmers in a team to implement and code the features of their game. It lets the developers of the team specify what are the requirements, how they should be implemented and the tools and technology required for that implementation. Besides, the TDD is also a useful document to show when it comes to find a publisher for your game, considering that they are becoming every time more careful about evaluating the games they may invert in.
 
 ## The relation of the TDD with the GDD
 Both the GDD and the TDD are game-related living documents, which means they are regularly updated and edited during the development of the product, so which is their relation? The Game Desgin Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD. In that way, we could declare as [Laura Deng](http://lauradeng.com/eng/?p=187) says that *"while a GDD is derived from the game concept and is a **functional description** of the game from the user’s point of view, a TDD is an **architectural description** of the game from the implementer’s point of view"*.
@@ -114,13 +114,11 @@ Branches are very useful during the coding process of the game, but a team needs
 *This is an example of a branching system inside a GitHub project. If you are interested and want more information about branching strategies you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
 
 ### Performance budgets
-Related with the [technical goals](#technical-goals), the performance budgets are a series of limits imposed on metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Performance budgets serve as a **point of reference** for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
-
-<p align="center">
-  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/performance-budget.jpg?raw=true" alt="Performance budget" width="640" height="293">
-</p>
+Related with the [technical goals](#technical-goals), the performance budgets are a series of limits imposed on the metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Performance budgets serve as a **point of reference** for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
 
 However, they are sometimes difficult to achieve or may change through the game creation process as the TDD evolves, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
+
+*[Here](https://www.youtube.com/watch?v=yqejmZrtmNg) there is an interesting video about performance budgets in websites.*
 
 ### Build delivery method
 This section describes the process that will be followed every time a build is delivered. It explains if there will be used an extern program, who will deliver the build and when will it be delivered.
