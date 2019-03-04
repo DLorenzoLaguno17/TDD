@@ -131,7 +131,7 @@ This section describes the process that will be followed every time a build is d
 Planning beforehand what it is intended to have for each version of the game creates a guideline to follow when it comes to create the releases. In this way the team can identify in which phase of the development they are. For example, a company creating an RTS could decide that they want the fog of war to be for the version `v0.6`. Eventually, when it is implemented it will mean they have arrived to that version and that it is time for a new release.
 
 ### Delivery platform and requirements
-It defines the **target platform** for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it. **Minimum requisites** are the ones for which the game has been designed and will make the platform run it. On the other hand, **recommended requisites** will allow the user to run the game fluidly.
+It defines the **target platform** for which the game will be delivered, such as PC, Xbox, PS4 or other consoles. In addition, in this section is specified minimum and the recommended hardware and software which are required to play it.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/platforms.jpg?raw=true" alt="Platforms" width="675" height="380">
@@ -164,7 +164,6 @@ These are all the pages I have checked to do the research.
 * Computer Games MMU's [TDD](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf).
 * Narbacular Drop's [TDD](http://www.nuclearmonkeysoftware.com/documents/narbacular_drop_technical_design_document.pdf).
 * [El documentalista audiovisual](https://eldocumentalistaudiovisual.com/2015/02/06/documentacion-en-videojuegos-documento-de-diseno-gdd/).
-* [Básico y Fácil](https://basicoyfacil.wordpress.com/2009/01/02/que-son-requisitos-minimos-y-requisitos-recomendados/).
 * [What is a Branching Strategy?](https://rollout.io/blog/branching-strategy/).
 * [What is a GDD?](https://medium.com/@cbrown0510/what-is-a-gdd-ca43e2094995).
 * Video Game Optimization's [fragment](https://books.google.es/books?id=MeILAAAAQBAJ&pg=PA27&lpg=PA27&dq=performance+budgets+of+a+video+game&source=bl&ots=-RmRgeg4nn&sig=ACfU3U1BgDCT4alxei4_glK7NOc6BmdtuQ&hl=ca&sa=X&ved=2ahUKEwjpxYSMieTgAhUMyxoKHSk8D1kQ6AEwCHoECAYQAQ#v=onepage&q&f=false).
