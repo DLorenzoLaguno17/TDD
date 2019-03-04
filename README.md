@@ -45,6 +45,7 @@ So, we could conclude as [Laura Deng](http://lauradeng.com/eng/?p=187) says that
 The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **extra sections**.
 
 ## Core sections
+The core sections are those which tend to be in all the TTDs no matter what the game is about.
 
 ### Features from the GDD
 Since the TDD is the document that will handle all the technical aspects of the development of the game it is important to summarize the most relevant features of GDD to have them handy. 
@@ -56,7 +57,7 @@ Since the TDD is the document that will handle all the technical aspects of the 
 *Original DOOM's [bible](http://planetdoom.gamespy.com/classicdoom/doombible.pdf) (GDD).*
 
 ### Technical goals
-The tehcnical goals are set to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
+The tehcnical goals are a list of objectives set to ensure everyone inside the team knows where to aim when working. They define what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
 
 ### Technical risks
 At the same time a team has its goals there are also risks which must not be overlooked. If the company is planning to make a level like the time-travel level of Dishonored 2 (one where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps loaded and rendered at the same tame makes the game go incredibly slow. In order to take the risks into account they are written down in the TDD.
@@ -142,6 +143,7 @@ It defines the **target platform** for which the game will be delivered, such as
 *The consoles of the last generation, considered the 8th.*
 
 ## Extra sections
+The extra sections of a TDD are those which vary depending on the game or are not as important or necessary as the core sections.
 
 ### Choice of game engine
 If the game uses a game engine this section explains which one has been decided to use and the reasons of this election. It also has a brief description of the features the chosen engine provides to the developers.
