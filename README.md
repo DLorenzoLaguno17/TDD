@@ -41,7 +41,7 @@ The Technical Design Document provides an scheme for the programmers in your tea
 ## The relation of the TDD with the GDD
 The Game Desgin Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD.
 
-So, we could say as [Laura Deng](http://lauradeng.com/eng/?p=187) tells us in her website that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, a TDD is an architectural description of the game from the implementer’s point of view"*.
+So, we could conclude as [Laura Deng](http://lauradeng.com/eng/?p=187) says that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, a TDD is an architectural description of the game from the implementer’s point of view"*.
 
 # Sections of a Technical Design Document
 The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **extra sections**.
