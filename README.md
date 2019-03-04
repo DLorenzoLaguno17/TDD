@@ -6,7 +6,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
 * [Introduction](#introduction)
     * [What is a Technical Design Document?](#what-is-a-technical-design-document?)
     * [The relation of the TDD with the GDD](#the-relation-of-the-TDD-with-the-GDD)
-* [Sections of a TDD](#sections-of-a-technical-design-document)
+* [Sections of a Technical Design Document](#sections-of-a-technical-design-document)
     * [Core sections](#core-sections)
        * [Features from the GDD](#features-from-the-GDD)
        * [Technical goals](#technical-goals)
@@ -29,17 +29,12 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
 * [References used](#references-used)
 
 # Introduction
-Modern digital games can be considered as large software projects which run and are made up of thousands of lines of code to millions of lines of code. Object-Oriented Design came into existence to deal with large software projects. The GDD or TDD are made for keeping in mind all the demands of Object-Oriented Programing along with the implementation details (TDD for technical details and GDD for entire Game Details) within it.
-
-https://www.linkedin.com/in/ahlawatabhishek/
 
 ## What is a Technical Design Document?
-The Technical Design Document provides an scheme for the programmers in your team to implement and code the features of your game. It will let your developers to specify what are the requirements, how they should be implemented, along with the tools and technologies required for the implementation. The connection between structural design of a Software and Technical Design Document is that the technical design document has a broader scope with less details, than a software architecture diagram.
+A Technical Design Document (TDD) is an **scheme** for the programmers in a team to implement and code the features of their game. It lets the developers of the team to specify what are the requirements, how they should be implemented and the tools and technologies required for the implementation. Besides, the TDD is also a useful document to show when it comes to find a publisher for your game, considering that they are becoming every time more careful about evaluating the games they might invert in.
 
 ## The relation of the TDD with the GDD
-The Game Desgin Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD.
-
-So, we could conclude as [Laura Deng](http://lauradeng.com/eng/?p=187) says that *"while a GDD is derived from the game concept and is a functional description of the game from the user’s point of view, a TDD is an architectural description of the game from the implementer’s point of view"*.
+Both the GDD and the TDD are game-related living documents, which means they are regularly updated and edited during the development of the product, so which is their relation? The Game Desgin Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD. In that way, we could declare as [Laura Deng](http://lauradeng.com/eng/?p=187) says that *"while a GDD is derived from the game concept and is a **functional description** of the game from the user’s point of view, a TDD is an **architectural description** of the game from the implementer’s point of view"*.
 
 # Sections of a Technical Design Document
 The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **extra sections**.
@@ -110,7 +105,7 @@ The UML offers a general outlook of the structure the code will have and the inh
 *DevCrumb's general UML for their game [Warcraft II: The Stolen Artifacts](https://devcrumbs.github.io/Warcraft-II/).*
 
 ### Branching policy
-Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It defines a series of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when should a developer branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
+Branches are very useful during the coding process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It defines a series of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when should a developer branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/github-branches.jpg?raw=true" alt="Github branches" width="675" height="380">
@@ -125,7 +120,7 @@ Related with the [technical goals](#technical-goals), the performance budgets ar
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/performance-budget.jpg?raw=true" alt="Performance budget" width="640" height="293">
 </p>
 
-However, they are sometimes difficult to achieve or might change through the game creation process, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
+However, they are sometimes difficult to achieve or may change through the game creation process as the TDD evolves, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
 
 ### Build delivery method
 This section describes the process that will be followed every time a build is delivered. It explains if there will be used an extern program, who will deliver the build and when will it be delivered.
@@ -174,5 +169,6 @@ These are all the pages I have checked to do the research.
 * [What is a GDD?](https://medium.com/@cbrown0510/what-is-a-gdd-ca43e2094995).
 * Video Game Optimization's [fragment](https://books.google.es/books?id=MeILAAAAQBAJ&pg=PA27&lpg=PA27&dq=performance+budgets+of+a+video+game&source=bl&ots=-RmRgeg4nn&sig=ACfU3U1BgDCT4alxei4_glK7NOc6BmdtuQ&hl=ca&sa=X&ved=2ahUKEwjpxYSMieTgAhUMyxoKHSk8D1kQ6AEwCHoECAYQAQ#v=onepage&q&f=false).
 * [web.dev](https://web.dev/fast/performance-budgets-101).
+* [Purpouse of the TDD](https://www.wisdomjobs.com/e-university/game-developing-tutorial-261/purpose-of-the-technical-design-document-6737.html).
 
 Go [back to top](#index).
