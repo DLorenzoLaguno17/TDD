@@ -61,7 +61,7 @@ Since the TDD is the document that will handle all the technical aspects of the 
 The tehcnical goals are set to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
 
 ### Technical risks
-At the same time a team has its goals there are also risks which must not be overlooked. If the company is making the time-travel level of Dishonored 2 (a level where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps rendered at the same tame makes the game go incredibly slower. In order to take the risks into account they are written down in the TDD.
+At the same time a team has its goals there are also risks which must not be overlooked. If the company is planning to makie a level like the time-travel level of Dishonored 2 (one where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps loadedand rendered at the same tame makes the game go incredibly slow. In order to take the risks into account they are written down in the TDD.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/dishonored-level.jpg?raw=true" alt="Github branches" width="675" height="380">
