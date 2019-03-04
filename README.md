@@ -1,6 +1,3 @@
-* Review branches
-* Review Introduction
-
 I am [Dani Lorenzo](https://www.linkedin.com/in/daniel-lorenzo-laguno-a2ab35180/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
 subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
 
@@ -61,7 +58,7 @@ Since the TDD is the document that will handle all the technical aspects of the 
 The tehcnical goals are set to ensure everyone inside the team knows where to aim when working. They are what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
 
 ### Technical risks
-At the same time a team has its goals there are also risks which must not be overlooked. If the company is planning to makie a level like the time-travel level of Dishonored 2 (one where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps loadedand rendered at the same tame makes the game go incredibly slow. In order to take the risks into account they are written down in the TDD.
+At the same time a team has its goals there are also risks which must not be overlooked. If the company is planning to make a level like the time-travel level of Dishonored 2 (one where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps loaded and rendered at the same tame makes the game go incredibly slow. In order to take the risks into account they are written down in the TDD.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/dishonored-level.jpg?raw=true" alt="Github branches" width="675" height="380">
@@ -111,13 +108,13 @@ The UML offers a general outlook of the structure the code will have and the inh
 *DevCrumb's general UML for their game [Warcraft II: The Stolen Artifacts](https://devcrumbs.github.io/Warcraft-II/).*
 
 ### Branching policy
-Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It defines a set of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when a developer should branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
+Branches are very useful during the programming process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It defines a series of rules and conventions that are going to be followed every time a member desires to make a commit. These rules consist of when should a developer branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/github-branches.jpg?raw=true" alt="Github branches" width="675" height="380">
 </p>
 
-*This is an example of a branching system inside a GitHub project. If you are interested and want more information about Branching policy you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
+*This is an example of a branching system inside a GitHub project. If you are interested and want more information about branching strategies you can check out [this website](https://rollout.io/blog/branching-strategy/)*.
 
 ### Performance budgets
 Related with the [technical goals](#technical-goals), the performance budgets are a series of limits imposed on metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Performance budgets serve as a **point of reference** for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
