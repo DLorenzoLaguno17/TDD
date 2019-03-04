@@ -122,6 +122,10 @@ Branches are very useful during the programming process of the game, but a team 
 ### Performance budgets
 Related with the [technical goals](#technical-goals), the performance budgets are a series of limits imposed on metrics that affect the game or program performance. Those could be the frames per second the game runs, the amount of disk memory is occupied by a certain feature of the game or the time it is expected for a map to be loading. Performance budgets serve as a **point of reference** for making decisions about design, technology and adding features. That enables the team to approach to the game with an established mentality about which standards their final result must accomplish. 
 
+<p align="center">
+  <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/performance-budget.jpg?raw=true" alt="Performance budget" width="640" height="293">
+</p>
+
 However, they are sometimes difficult to achieve or might change through the game creation process, so they are only a guide. As [Ben Garney](https://bengarney.com/) and [Eric Preisz](https://www.linkedin.com/in/eric-preisz-371a8b/) say in their book [Video Game Optimization](https://www.amazon.com/Video-Game-Optimization-Eric-Preisz/dp/1598634356/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=video+game+optimization&qid=1551553868&s=books&sr=1-1) *"the performance budget, much like a financial budget, is typically not perfect. It is a benchmark for measurement and guidance. [...] Use the budget to determine problems and to forecast and manage change"*.
 
 ### Build delivery method
