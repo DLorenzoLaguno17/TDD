@@ -137,6 +137,8 @@ It defines the **target platform** for which the game will be delivered, such as
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/platforms.jpg?raw=true" alt="Platforms" width="675" height="380">
 </p>
 
+*The consoles of the last generation, considered the 8th.*
+
 ## Extra sections
 
 ### Choice of game engine
