@@ -87,7 +87,7 @@ Being one of the most important of the TDD, in this section are described the **
 
 * **XML:** Outlines the guidelines to write the variables in the XML files of the project and how to name their nodes and attributes. For example:
        
-       If a node has just one attribute we'll declare it in their same line:
+       If a node has just one attribute we'll declare it in the same line:
        <house colour="red"/>
 
 *This list of elements has been made taking [DevCrumb's TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) as a reference.*
