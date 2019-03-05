@@ -150,7 +150,7 @@ In this section is explained which objects will be en each part of the map, whic
 ### Use of physics engine
 This section describes how will be de collision detection, how will be the physics calculated and applied to the game (gravity, friction...) and how will be the interaction of the charaters or the other entities with the game world. 
 
-### Artifical Intelligence
+### Artificial Intelligence
 If the game will have a complex AI system it is very important it is conscientiously planned and detailed.
 
 ### Networking
