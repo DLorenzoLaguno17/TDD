@@ -34,7 +34,7 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
 A Technical Design Document (TDD) is a **scheme** for the programmers in a team to implement and code the features of their game. It lets the developers of the team specify what are the requirements, how they should be implemented and the tools and technology required for that implementation. Besides, the TDD is also a useful document to show when it comes to find a publisher for your game, considering that they are becoming every time more careful about evaluating the games they may invert in.
 
 ## The relation of the TDD with the GDD
-Both the GDD and the TDD are video game related living documents, which means they are regularly updated and edited during the development of the product, so which is their relation? The Game Desgin Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD. In that way, we could declare as [Laura Deng](http://lauradeng.com/eng/?p=187) says that *"while a GDD is derived from the game concept and is a **functional description** of the game from the user’s point of view, a TDD is an **architectural description** of the game from the implementer’s point of view"*.
+Both the GDD and the TDD are video game related living documents, which means they are regularly updated and edited during the development of the product, so which is their relation? The Game Design Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD. In that way, we could declare as [Laura Deng](http://lauradeng.com/eng/?p=187) says that *"while a GDD is derived from the game concept and is a **functional description** of the game from the user’s point of view, a TDD is an **architectural description** of the game from the implementer’s point of view"*.
 
 # Sections of a Technical Design Document
 The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **extra sections**.
@@ -52,10 +52,10 @@ Since the TDD is the document that will handle all the technical aspects of the 
 *Original DOOM's [bible](http://planetdoom.gamespy.com/classicdoom/doombible.pdf) (GDD).*
 
 ### Technical goals
-The tehcnical goals are a **list of objectives** set to ensure everyone inside the team knows where to aim when working. They define what is expected to acheive in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
+The technical goals are a **list of objectives** set to ensure everyone inside the team knows where to aim when working. They define what is expected to achieve in relation to the code, the game engine or the platform where the game is going to be delivered. Some examples would be immersive ambient sound, complex AI or realistic shadows.
 
 ### Technical risks
-At the same time a team has its goals there are also risks which must not be overlooked. If the company is planning to make a level like the time-travel level of Dishonored 2 (one where you can go from the past to the future and the scenary changes) one of those riks could be that the fact of having two maps loaded and rendered at the same tame makes the game go incredibly slow. In order to take the risks into account they are written down in the TDD.
+At the same time a team has its goals there are also risks which must not be overlooked. If the company is planning to make a level like the time-travel level of Dishonored 2 (one where you can go from the past to the future and the scenery changes) one of those risks could be that the fact of having two maps loaded and rendered at the same tame makes the game go incredibly slow. In order to take the risks into account they are written down in the TDD.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/dishonored-level.jpg?raw=true" alt="Github branches" width="675" height="380">
@@ -78,7 +78,7 @@ Being one of the most important of the TDD, in this section are described the **
 
 * **Loops:** Mentions which loops are preferred inside the code (`while`, `do-while`, `for`...) and when to use `break` and `continue` keywords. 
 
-* **Conditionals:** Describes how to manage condicionals, whether to separate the `if` line from the functions inside the conditional or to put everything in the same line, when to use scopes `{}` or if it is preferred a conditional with operators or without them. For example:
+* **Conditionals:** Describes how to manage conditionals, whether to separate the `if` line from the functions inside the conditional or to put everything in the same line, when to use scopes `{}` or if it is preferred a conditional with operators or without them. For example:
 
         We prefer a conditional like if(something) {}
         rather than one like if(something == true) {}
@@ -105,7 +105,7 @@ The UML offers a **general outlook of the structure the code will have** and the
 *DevCrumb's general UML for their game [Warcraft II: The Stolen Artifacts](https://devcrumbs.github.io/Warcraft-II/).*
 
 ### Branching policy
-Branches are very useful during the coding process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It **defines a series of rules and conventions** that are going to be followed **every time a member desires to make a commit**. These rules consist of when should a developer branch, which branch should the developer use, when should the developer commit a merge and to which branch sould the developer make the merge commit.
+Branches are very useful during the coding process of the game, but a team needs to have stipulated in which way are they going to use them to ensure this advantage does not turn against them. This is what this section of the TDD is for. It **defines a series of rules and conventions** that are going to be followed **every time a member desires to make a commit**. These rules consist of when should a developer branch, which branch should the developer use, when should the developer commit a merge and to which branch should the developer make the merge commit.
 
 <p align="center">
   <img src="https://github.com/DLorenzoLaguno17/TDD/blob/master/docs/github-branches.jpg?raw=true" alt="Github branches" width="675" height="380">
@@ -145,13 +145,13 @@ If the game is going to use a game engine this section explains which one has be
 In case there is no Art Bible and no Audio Bible, this section will specify which art tools will be used for the game art and audio and which tool will be used for each art or audio area.
 
 ### 3D Objects, terrain and scene management
-In this section is explained which objects will be en each part of the map, which terrains will be used in the game and how will be the scene management.
+In this section is explained which objects will be in each part of the map, which terrains will be used in the game and how will be the scene management.
 
 ### Use of physics engine
-This section describes how will be de collision detection, how will be the physics calculated and applied to the game (gravity, friction...) and how will be the interaction of the charaters or the other entities with the game world. 
+This section describes how will be de collision detection, how will be the physics calculated and applied to the game (gravity, friction...) and how will be the interaction of the characters or the other entities with the game world. 
 
 ### Artificial Intelligence
-If the game will have a complex AI system it is very important it is conscientiously planned and detailed.
+If the game will have a complex AI system, it is very important it is conscientiously planned and detailed.
 
 ### Networking
 In the case the game is multiplayer or has a multiplayer mode this section explains how it will be handled.
