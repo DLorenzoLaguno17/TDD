@@ -31,13 +31,13 @@ subject Project 2, under the supervision of lecturer [Ricard Pillosu](https://es
 # Introduction
 
 ## What is a Technical Design Document?
-A Technical Design Document (TDD) is a **scheme** for the programmers in a team to implement and code the features of their game. It lets the developers of the team specify what are the requirements, how they should be implemented and the tools and technology required for that implementation. Besides, the TDD is also a useful document to show when it comes to find a publisher for your game, considering that they are becoming every time more careful about evaluating the games they may invert in.
+A Technical Design Document (TDD) is a **scheme** for the programmers in a team to implement and code the features of their game. It lets the developers of the team specify what are the requirements, how they should be implemented and the tools and technology required for that implementation. Besides, the TDD is also a useful document to show when it comes to find a publisher for your game, considering that they are becoming every time more careful about evaluating the games they may invest in.
 
 ## The relation of the TDD with the GDD
 Both the GDD and the TDD are video game related living documents, which means they are regularly updated and edited during the development of the product, so which is their relation? The Game Design Document (GDD) is the soul of a videogame, it is equivalent to the [Bible of a television series](https://www.shorescripts.com/what-is-a-tv-series-bible/) (sometimes a GDD is also called Bible). It allows game developers to administrate and organize their ideas in a document which will be followed by all the members of the team and will be used as the base for the development of the game. On the other hand, the TDD is a blueprint for all the technical aspects of the features which are defined in the GDD. In that way, we could declare as [Laura Deng](http://lauradeng.com/eng/?p=187) says that *"while a GDD is derived from the game concept and is a **functional description** of the game from the user’s point of view, a TDD is an **architectural description** of the game from the implementer’s point of view"*.
 
 # Sections of a Technical Design Document
-The information contained in a TDD can vary depending on the company or the project. Nevertheless there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **extra sections**.
+The information contained in a TDD can vary depending on the company or the project. Nevertheless, there are sections which are more usual than others, so we will divide them in what I have called **core sections** and **extra sections**.
 
 ## Core sections
 The core sections are those which tend to be in all the TTDs no matter what the game is about.
